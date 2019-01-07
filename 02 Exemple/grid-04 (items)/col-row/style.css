@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: lightgray;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4.5rem 4.5rem 4.5rem;
+    grid-gap: 3px;
+}
+
+.wrapper > div {
+    background-color: lightslategray;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 4.5rem;
+}
+
+.one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.two {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    line-height: 9rem !important;
+}
+
+.five {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

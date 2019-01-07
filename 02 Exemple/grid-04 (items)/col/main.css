@@ -1,0 +1,22 @@
+body {
+    margin: 1.2rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 4.5rem 4.5rem;
+    grid-gap: 6px;
+    background-color: azure;
+}
+
+div {
+    background-color: lightslategray;
+    color: aliceblue;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 4.5rem;
+}
+
+.list1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: gray;
+}
